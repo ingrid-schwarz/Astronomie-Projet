@@ -1,0 +1,36 @@
+body {
+    margin:2px 5px 2em 0;
+    background-color: blue ;
+}
+
+main {
+    background-color:white;
+    margin: 200px;
+    text-align: left;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align:center;
+    font-size:40px;
+}
+
+main div a.bouton {
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    
+}
+
+div {
+    background-color: white;
+}
