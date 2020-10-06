@@ -19,3 +19,12 @@ ul.nav-menu{
     font-weight: 300;
     padding: 20px;
     }
+
+ul.burger {
+    list-style: none;
+    display: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    padding: 20px;
+
+}
