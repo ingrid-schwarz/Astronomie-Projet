@@ -25,6 +25,18 @@ a:link {
         text-decoration: none;
     }
 
+
+@media screen and (max-width: 720px){
+header{
+    background-color: red;
+}
+
+.menu_burger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .burger {
     list-style: none;
     display: none;
@@ -32,10 +44,5 @@ a:link {
     font-weight: 300;
     padding: 20px;
     }
-
-@media screen and (max-width: 720px){
-header{
-    background-color: red;
-}
 
 } 
