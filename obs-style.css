@@ -1,0 +1,28 @@
+article.obs{
+    position: absolute;
+    left: 15%;
+
+}
+h1{
+    color:red;
+    font-size: 40px;
+}
+
+.contenu {
+    padding: 10px;
+    text-align: center;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right; 
+    background-color: rgb(49, 47, 47);
+    
+}
+
+h2{color:white;}
+  
+p.texte {
+    padding-bottom: 50px;
+    color: white;
+}
