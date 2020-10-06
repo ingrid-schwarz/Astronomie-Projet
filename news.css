@@ -1,6 +1,7 @@
 @media screen and (min-width : 1200px){
 body{
     background-image: url("https://www.tntv.pf/tntv/wp-content/uploads/2020/03/milky-way-2675322_1280-696x392.jpg");
+    background-image: 100%;
     color:white
 }
 header {
@@ -52,7 +53,7 @@ h2{
     color: white;
     text-align: center;
     text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     margin-top: 5px;
 }
 h3{
@@ -62,22 +63,21 @@ h3{
     text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
   padding-top: 60px;
 }
-.img-news {
-   display : flex;
-   justify-content: center;
-   height: 500px;
-   width: 721px;
-   padding-right: 20%;
-   padding-left: 20%;
+
 }
 .text-container { 
     text-align: center;
     padding-left: 80px;
     padding-right: 80px;
+    margin-top: 70px;
     margin-bottom: 40px;
- 
-   
 }
+.img-news {
+  display : flex;
+  justify-content: center;
+  height: 500px;
+  width: 700px;
+  margin : auto;
 }
 @media sreen and (max-width : 768 px){
   body{
@@ -119,7 +119,7 @@ h1 {
     font-size: 100px;
     animation: 3s linear 1s infinite alternate slidein;
 }
-div{
+.container{
   
   background-color: rgb(58, 97, 168);
   margin-left: 200px;
@@ -131,7 +131,7 @@ h2{
     color: white;
     text-align: center;
     text-shadow: 1px 1px 2px white, 0 0 1em blue, 0 0 0.2em blue;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     margin-top: 5px;
 }
 h3{
