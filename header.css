@@ -31,5 +31,11 @@ a:link {
     color: #FFFFFF;
     font-weight: 300;
     padding: 20px;
-
     }
+
+@media screen and (max-width: 720px){
+header{
+    background-color: red;
+}
+
+} 
