@@ -20,39 +20,45 @@ a:link {
         color:white;
         text-decoration: none;
     }
-    .menu_burger{
-        display: none;
+.menu_burger{
+    display: none;
 
-    }
-
+}
+nav.burger{
+    display: none;
+}
 
     /****************************************************************************************
     *********************************Responsive**********************************************
     ****************************************************************************************/
 
-    @media screen and (max-width: 720px){
+@media screen and (max-width: 720px){
 
+.bouton{
+    display: flex;
+    justify-content: center;
+}
 button.b-btn{
     display: flex;
     justify-content: center;
     width: 100px;
+    height: 80px;
 }
-
-img.b-btn{
-    width: 100px;
-    left: 200px;
+nav.burger{
+    display: none;
 }
-
 
 header{
-    background-color: red;
+    background-color: black;
     }
 nav{
     display: none;
 }
+
 .nav-menu {
         display: none;
     }
+    
 ul.burger{
     display: none;
 }
