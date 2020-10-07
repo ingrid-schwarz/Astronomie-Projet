@@ -44,9 +44,6 @@ button.b-btn{
     width: 100px;
     height: 80px;
 }
-nav.burger{
-    display: none;
-}
 
 header{
     background-color: black;
@@ -59,10 +56,10 @@ nav{
         display: none;
     }
     
-ul.burger{
+.hidden{
     display: none;
 }
-.menu_burger{
+.show{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
