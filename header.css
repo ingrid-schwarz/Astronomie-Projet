@@ -25,11 +25,17 @@ a:link {
 
     }
 
-@media screen and (max-width: 720px){
 
-.b-btn{
+    /****************************************************************************************
+    *********************************Responsive**********************************************
+    ****************************************************************************************/
+
+    @media screen and (max-width: 720px){
+
+button.b-btn{
     display: flex;
     justify-content: center;
+    width: 100px;
 }
 
 img.b-btn{
@@ -47,7 +53,9 @@ nav{
 .nav-menu {
         display: none;
     }
-
+ul.burger{
+    display: none;
+}
 .menu_burger{
     display: flex;
     flex-direction: column;
