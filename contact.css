@@ -1,89 +1,97 @@
-body {
-  background-color: #d4d4d4;
-}
 @media screen and (min-width: 1000px) {
-    body {
-      background-color: #d4d4d4;
-      background-image: 100%;
-      color: black;
-    }
-    header {
-      padding-top: 1px;
-      padding-bottom: 30px;
-      background-color: #d4d4d4;
-      background-repeat: no-repeat;
-      background-size: auto;
-      background-origin: content-box;
-    }
-    li {
-      font-size: 25px;
-    }
-  
-    header h1 {
-      color:blue;
-      text-align: center;
-      text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
-    }
-  
-    ul.nav-menu {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      color:blue;
-      text-align: center;
-      text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
-      font-weight: 200;
-      padding: 20px;
-      background-color: #d4d4d4;
-      list-style: none;
-      text-decoration: none;
-    }
-    .nav-menu :hover {
-      color: rgb(178, 252, 41);
-    }
-  
-    h1 {
-      text-align: center;
-      font-size: 100px;
-      animation: 3s linear 1s infinite alternate slidein;
-    }
-    body {
-        background-color: #d4d4d4;
-      }
-      h2 {
-        font-size: 50px;
-        color: blue;
-        text-align: center;
-        text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
-        margin-bottom: 80px;
-        margin-top: 100px;
-      }
-      h3 {
-        font-size: 40px;
-        color: blue;
-        text-align: center;
-        text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue;
-        padding-top: 60px;
-      }
-.form {
-  background-color: white;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-block-end: 100px;
-  text-align: center;
-  padding-top: 40px;
-}
-.form-name {
+  body {
+    background-color: #d4d4d4;
+    background-image: 100%;
+    color: black;
+  }
+  #fusee {
+    height: 500px;
+    width: auto;
+  }
+  header {
+    padding-top: 1px;
+    padding-bottom: 30px;
+    background-color: #d4d4d4;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-origin: content-box;
+  }
+  li {
+    font-size: 25px;
+  }
+
+  header h1 {
+    color: blue;
+    text-align: center;
+  }
+
+  ul.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: blue;
+    text-align: center;
+
+    font-weight: 200;
+    padding: 20px;
+    background-color: #d4d4d4;
+    list-style: none;
+    text-decoration: none;
+  }
+  .nav-menu :hover {
+    color: rgb(178, 252, 41);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    animation: 3s linear 1s infinite alternate slidein;
+  }
+  body {
+    background-color: #d4d4d4;
+  }
+  h2 {
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+
+    margin-bottom: 80px;
+    margin-top: 100px;
+  }
+  h3 {
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+
+    padding-top: 60px;
+  }
+  .form {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-block-end: 100px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .form-name {
     padding-bottom: 20px;
-}
-.form-email {
+  }
+  .form-email {
     padding-right: 10px;
     padding-bottom: 20px;
-}
-.form-message{
-    padding-right: 155px;  
-}
-.form-submit{
+  }
+  .form-message {
+    padding-right: 155px;
+  }
+  .form-submit {
     padding-left: 20px;
+  }
+  .footer {
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    height: 200px;
+    padding-top: 50px;
+    font-size: 20px;
+  }
 }
-  
