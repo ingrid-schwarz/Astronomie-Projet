@@ -17,7 +17,7 @@
         <ul class="nav-menu">
           <li><a href="index.html">Accueil</a></li>
           <li><a href="news.html">Actus spatiales </a></li>
-          <li><a href="dates-historiques.html">Dates historiques </a></li>
+          <li><a href="#">Culture </a></li>
           <li>
             <a href="un-billet-pour-l-espace.html">Un billet pour l'espace </a>
           </li>
@@ -25,6 +25,38 @@
           <li><a href="galerie.html">Galerie </a></li>
         </ul>
       </nav>
+      <div class="burger">
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+              <a href="news.html"><li>Actu spatiale</li></a>
+            <a href="dates-historique.html"><li>Dates Historiques</li></a>
+            <a href="observation.html"><li>Observer l'espace</li></a>
+            <a href="#"><li>Culture</li></a>
+            <a href="galerie.html"><li>Galerie</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            </ul>
+          </div>
+        </div>
     </header>
     <h2>Contact</h2>
     <form action="" method="get" class="form">
