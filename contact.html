@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Contact | Astronova</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/Dessin-fusée.png" id="fusee" />
+      <img src="img/Lune.png" alt="lune.png" class="lune-titre" />
+    <img src="img/soleil.png" alt="soleil.png" class="soleil-titre" />
+      <h1 class="ml2">Astronova</h1>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="news.html">Actus spatiales </a></li>
+          <li><a href="#">Culture </a></li>
+          <li>
+            <a href="un-billet-pour-l-espace.html">Un billet pour l'espace </a>
+          </li>
+          <li><a href="observer-l-espace.html">Observer l'espace </a></li>
+          <li><a href="galerie.html">Galerie </a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div id="menuToggle">
+            <!--
+            A fake / hidden checkbox is used as click reciever,
+            so you can use the :checked selector on it.
+            -->
+            <input type="checkbox" />
+            
+            <!--
+            Some spans to act as a hamburger.
+            
+            They are acting like a real hamburger,
+            not that McDonalds stuff.
+            -->
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <!--
+            Too bad the menu has to be inside of the button
+            but hey, it's pure CSS magic.
+            -->
+            <ul id="menu">
+              <a href="news.html"><li>Actu spatiale</li></a>
+            <a href="dates-historique.html"><li>Dates Historiques</li></a>
+            <a href="observation.html"><li>Observer l'espace</li></a>
+            <a href="#"><li>Culture</li></a>
+            <a href="galerie.html"><li>Galerie</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            </ul>
+          </div>
+        </div>
+    </header>
+    <h2>Contact</h2>
+    <form action="" method="get" class="form">
+      <div class="form-name">
+        <label for="name">Entrer votre nom: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="form-email">
+        <label for="email">Entrer votre Email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div classe="form-message">
+        <label for="message"></label>
+        <textarea name="message" rows="20" cols="60">Votre message</textarea>
+      </div>
+      <div class="form-submit">
+        <input type="submit" value="Envoyer!" />
+      </div>
+    </form>
+    <footer>
+      <ul class="footer">
+        <li><a class="footer-text" href=https://www.wildcodeschool.com/fr-FR>Wild Code School</li>
+        <li><a class="footer-text" href=https://fr-fr.facebook.com>Facebook</li>
+        <li><a class="footer-text" href=https://fr-fr.facebook.com>Twitter</li>
+        <li><a class="footer-text" href=contact.html>Contact</li>
+      </ul>
+    <script src="contact.js"></script>
+  </body>
+</html>
