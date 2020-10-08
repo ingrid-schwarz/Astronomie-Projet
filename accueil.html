@@ -1,38 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projet Astronomie</title>
-  <link rel="stylesheet" href="../style.css" />
-</head>
 
-<body>
 
-  <header>
-    <h1>ASTRONOVA</h1>
-    <nav>
-      <a class="navbar-brand" href="/">
-        <div class="logo-image">
-          <img src="mars.png" class="img-fluid">
+
+  <div id="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <div id="slides">
+      <div id="overflow">
+        <div class="inner">
+          <div class="slide slide_1">
+            <div class="slide-content">
+              <h2>Saviez-vous que?</h2>
+              <p>Dans environ cinq milliards d'années, le Soleil gonflera pour devenir une géante rouge, “avalant” du
+                même coup les planètes Mercure, Vénus, la Terre et Mars.</p>
+            </div>
+          </div>
+          <div class="slide slide_2">
+            <div class="slide-content">
+              <h2>Saviez-vous que?</h2>
+              <p>La Grande Tache Rouge de Jupiter est un ouragan gros comme 2x la Terre, et n’a que 300 ans.</p>
+            </div>
+          </div>
+          <div class="slide slide_3">
+            <div class="slide-content">
+              <h2>Saviez-vous que?</h2>
+              <p>A la surface de Vénus, il pleut de l’acide sulfurique et les vents soufflent à plus de 360 km/h. </p>
+            </div>
+          </div>
+          <div class="slide slide_4">
+            <div class="slide-content">
+              <h2>Saviez-vous que?</h2>
+              <p>Chaque année, 100 000 tonnes de météorites tombent sur terre.</p>
+            </div>
+          </div>
         </div>
-      </a>
-      <ul class="nav-menu">
-        <li><a class="a-nav" href="Actu-spatiales.html">Actus spatiales</a></li>
-        <li><a class="a-nav" href="Culture.html">Culture</a></li>
-        <li><a class="a-nav" href="un-billet-pour-l-espace.html">Un billet pour l'espace</a></li>
+      </div>
+    </div>
+    <div id="controls">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+    </div>
+    <div id="bullets">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+    </div>
+  </div>
 
-      </ul>
-    </nav>
-  </header>
+
+
+
+
+
 
   </ul>
   </nav>
   <main>
     <section>
       <h2 class="test">
-        A ne pas manquer cette semaine...
+        L'astronomie est la science de l'observation des astres et cherche à expliquer leur origine, leurs éventuelles
+        évolutions et aussi l'influence qu'ils ont physiquement sur la vie de tous les jours : marées, crue du Nil,
+        canicule, etc. Cette influence se manifeste par certains phénomènes exceptionnels (les éclipses, les comètes,
+        les étoiles filantes, etc.) qui pour certains étaient des événements majeurs dans le rythme de vie de la
+        communauté comme les saisons et pour d'autres la possibilité de mieux faire avancer les connaissances au niveau
+        de la compréhension de l'univers céleste. Elle ne doit pas cependant être confondue avec des disciplines très
+        proches telles que l’archéoastronomie, la mécanique céleste qui n'en sont que des domaines particuliers.
       </h2>
     </section>
 
@@ -68,17 +105,23 @@
       </div>
     </section>
 
-    <h2 class="test2">
-      Nos plus belles images
-    </h2>
+
+
+
+
+
+
+    <h3 class="test2">Galerie </h3>
 
     <section id="galerie">
       <div class="slider">
-        <div class="slide">
-          <slide><img src="robot.png" alt="1" /></slide>
-          <slide><img src="robot.png" alt="2" /></slide>
-          <slide><img src="robot.png" alt="3" /></slide>
-          <slide><img src="robot.png" alt="4" /></slide>
+        <div class="slide-bottom">
+          <slide><img src="/caroussel/astro/eclipse.jpg" alt="1" /></slide>
+          <slide><img src="/caroussel/astro/robotmars.jpg" alt="2" /></slide>
+          <slide><img src="/caroussel/astro/lune.jpg" alt="3" /></slide>
+          <slide><img src="/caroussel/astro/miroir.jpg" alt="4" /></slide>
+          <slide><img src="/caroussel/astro/telescope.jpg" alt="5" /></slide>
+          <slide><img src="/caroussel/astro/fusée.jpg" alt="6" /></slide>
         </div>
       </div>
     </section>
@@ -91,10 +134,14 @@
 
 
 
+
+
+
+
   <footer>
     <footer class="footer">
       <div class="footer__addr">
-        <h1 class="footer__logo">TEAM ASTRO<h1>
+        <h1 class="footer__logo">ASTRONOVA</h1>
 
             <h2>Contact</h2>
 
@@ -115,10 +162,6 @@
             </li>
 
             <li>
-              <a href="#">Données personnelles</a>
-            </li>
-
-            <li>
               <a href="#">Mentions Légales</a>
             </li>
           </ul>
@@ -130,14 +173,6 @@
           <ul class="nav__ul nav__ul--extra">
             <li>
               <a href="#">Qui sommes-nous?</a>
-            </li>
-
-            <li>
-              <a href="#">Recrutement</a>
-            </li>
-
-            <li>
-              <a href="#">Groupe WildCodeSchool</a>
             </li>
           </ul>
         </li>
