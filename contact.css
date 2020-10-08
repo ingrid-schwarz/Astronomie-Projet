@@ -1,51 +1,57 @@
 @media screen and (min-width: 1000px) {
   body {
     background-color: #d4d4d4;
-    background-image: 100%;
-    color: black;
-  }
-  #fusee {
-    height: 500px;
-    width: auto;
   }
   header {
     padding-top: 1px;
     padding-bottom: 30px;
-    background-color: #d4d4d4;
+    background-color: rgb(7, 7, 61);
     background-repeat: no-repeat;
     background-size: auto;
     background-origin: content-box;
+  }
+  .lune-titre {
+    position: absolute;
+    width: 400px;
+  }
+  .soleil-titre {
+    width: 100px;
+    position: absolute;
   }
   li {
     font-size: 25px;
   }
 
   header h1 {
-    color: blue;
-    text-align: center;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-size: 80px;
   }
 
   ul.nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: blue;
+    color: white;
     text-align: center;
 
-    font-weight: 200;
-    padding: 20px;
-    background-color: #d4d4d4;
+    font-weight: 150;
+    margin-right: 50px;
+    margin-left: 260px;
+
     list-style: none;
-    text-decoration: none;
   }
   .nav-menu :hover {
-    color: rgb(178, 252, 41);
+    color: yellow;
+  }
+  a {
+    text-decoration: none;
+    color: white;
   }
 
-  h1 {
-    text-align: center;
-    font-size: 100px;
-    animation: 3s linear 1s infinite alternate slidein;
+  #fusee {
+    width: 200px;
   }
   body {
     background-color: #d4d4d4;
@@ -66,11 +72,14 @@
     padding-top: 60px;
   }
   .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: white;
     margin-left: 200px;
     margin-right: 200px;
     padding-block-end: 100px;
-    text-align: center;
+
     padding-top: 40px;
   }
   .form-name {
@@ -81,9 +90,11 @@
     padding-bottom: 20px;
   }
   .form-message {
-    padding-right: 155px;
+    margin-left: 155px;
+    padding-top: 20px;
   }
   .form-submit {
+    margin-top: 20px;
     padding-left: 20px;
   }
   .footer {
@@ -93,5 +104,37 @@
     height: 200px;
     padding-top: 50px;
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lune-titre {
+    position: absolute;
+    width: 200px;
+  }
+  .soleil-titre {
+    width: 100px;
+    position: absolute;
+  }
+  .ml2 {
+    color: white;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 60px;
+  }
+  header {
+    background-color: rgb(7, 7, 61);
+    width: 100%;
+  }
+
+  .footer {
+    list-style: none;
+    background-color: black;
+    height: 150px;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
   }
 }
