@@ -1,11 +1,11 @@
 const titre = document.querySelector("#fusee");
 titre.style.position = "absolute";
-let topPos = 1200;
+let topPos = 2000;
 let dir = -1;
 
 function hautBas() {
   if (topPos == -800) {
-    topPos = 1200;
+    topPos = 2000;
     dir = -1;
   }
   topPos += 12 * dir;

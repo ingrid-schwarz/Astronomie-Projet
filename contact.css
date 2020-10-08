@@ -63,7 +63,7 @@ disparaître le menu burger en mode desktop*/
   }
   h2 {
     font-size: 50px;
-    color: blue;
+    color: rgb(7, 7, 61);
     text-align: center;
 
     margin-bottom: 80px;
@@ -71,7 +71,7 @@ disparaître le menu burger en mode desktop*/
   }
   h3 {
     font-size: 40px;
-    color: blue;
+    color: rgb(7, 7, 61);
     text-align: center;
 
     padding-top: 60px;
@@ -140,7 +140,9 @@ disparaître le menu burger en mode desktop*/
     display: flex;
     flex-direction: row-reverse;
     color: rgb(7, 7, 61);
+    padding-right: 50px;
   }
+
   .footer {
     list-style: none;
     background-color: black;
@@ -151,6 +153,9 @@ disparaître le menu burger en mode desktop*/
   a {
     text-decoration: none;
     color: white;
+  }
+  #fusee {
+    display: none;
   }
   /*À mettre dans les media queries: fais apparaitre le menu en mode mobile*/
   .burger {

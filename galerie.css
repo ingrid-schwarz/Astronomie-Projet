@@ -40,11 +40,9 @@ disparaître le menu burger en mode desktop*/
     justify-content: space-between;
     color: white;
     text-align: center;
-
     font-weight: 150;
     margin-right: 50px;
     margin-left: 260px;
-
     list-style: none;
   }
   .nav-menu :hover {
@@ -69,7 +67,7 @@ disparaître le menu burger en mode desktop*/
 
   h2 {
     font-size: 60px;
-    color: black rgb(7, 7, 61);
+    color: rgb(7, 7, 61);
     text-align: center;
     margin-bottom: 80px;
     margin-top: 100px;
@@ -80,6 +78,11 @@ disparaître le menu burger en mode desktop*/
   .img-galerie {
     width: 400px;
     height: 400px;
+  }
+  .img-galerie :hover {
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
   }
   .footer {
     text-align: center;
