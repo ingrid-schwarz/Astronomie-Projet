@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les dates historiques | titre site</title>
+    <title>Les dates historiques | Astronova</title>
     <link rel="stylesheet" href="dates-style.css"/> 
+    <link rel= "stylesheet" href="news.css"/>
+    <link rel="stylesheet" href="css-burger.css">
+
 </head>
 
 <body>
-
     <header>
-        <h1>nom du site</h1>
+        <!-- <link rel = "stylesheet" href ="header.css">
+        <script type ="javascript" src="header.js"></script> -->
+        <img src ="img/lune.png">
+        
+        <h1>Astronova</h1>
+        <img src="img/soleil.png">
         <nav>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id ="nav">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="actu-spatiales.html">Actus spatiales</a></li>
                 <li><a href="dates-historiques.html">Dates historiques</a></li>
-                <li><a href="un-billet-pour-l-espace.html">Un billet pour l'espace</a></li>
+                <li><a href="Page-film-astro.html">Culture</a></li>
                 <li><a href="observer-l-espace.html">Observer l'espace</a></li>
                 <li><a href="galerie.html">Galerie</a></li>
             </ul>
+         
         </nav>
+        <div class="burger">
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox" />
+                
+                <!--
+                Some spans to act as a hamburger.
+                
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                    <a href="index.html"><li>Accueil</li></a>
+                  <a href="actu-spatiales.html"><li>Actu spatiale</li></a>
+                  <a href="dates-historiques.html"><li>Dates historiques</li></a>
+                  <a href="Page-film-astro.html"><li>Culture</li></a>
+                  <a href="observer-l-espace.html"><li>Observer l'espace</li></a>
+                  <a href="galerie.html"><li>Galerie</li></a>
+                </ul>
+              </div>
+            </div>
     </header>
-
-
     <h1 class="titre">Les dates historiques</h1>
 
     <article class="obs">
@@ -33,30 +71,21 @@
         <section class="contenu"> 
 
             <p class="texte">
-                XXXXXXXXXXXXXXXXXXXXXXXXXXX
+                1957 : lancement du premier satéllite Spoutnik
             </p>
 
             <p class="texte">
-                XXXXXXXXXXXXXXXXXXXXXXXXXXX
+                1961 : le premier homme dans l'espace Youri Gagarine
             </p>
 
             <p class="texte">
-                XXXXXXXXXXXXXXXXXXXXXXXXXXX
+                1962 : premier americain dans l'espace John Glenn
             </p>
 
-            <p class="texte">
-                XXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </p>
 
         </section>
 
     </article>
-
-    <footer>
-        <p>truc</p>
-        <p>machin</p>
-        <p>bidule</p>
-    </footer>
     
 </body>
 
