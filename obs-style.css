@@ -19,10 +19,15 @@ h1{
     background-color: rgb(49, 47, 47);
     
 }
-
+.obs-image{
+    max-width: 50%;
+}
 h2{color:white;}
   
 p.texte {
     padding-bottom: 50px;
     color: white;
+}
+body{
+    background-color:rgb(26, 28, 54);
 }

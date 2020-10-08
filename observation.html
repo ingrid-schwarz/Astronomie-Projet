@@ -6,25 +6,10 @@
     <meta name="viewport" content="width = device-width" />
     <link rel= "stylesheet" href="style.css"/>
     <link rel="stylesheet" href="obs-style.css"/>
-    <link rel= "stylesheet" href="news.css"/> 
     <link rel="stylesheet" href="header.css"/>
 </head>
 
 <body>
-
-    <header>
-        <h1>nom du site</h1>
-        <nav>
-            <ul class="nav-menu">
-                <li>Accueil <a href="index.html"></a></li>
-                <li>Actus spatiales <a href="actu-spatiales.html"></a></li>
-                <li>Dates historiques <a href="dates-historiques.html"></a></li>
-                <li>Un billet pour l'espace <a href="un-billet-pour-l-espace.html"></a></li>
-                <li>Observer l'espace <a href="observer-l-espace.html"></a></li>
-                <li>Galerie <a href="galerie.html"></a></li>
-            </ul>
-        </nav>
-    </header>
 
 
     <article class="obs">
@@ -47,6 +32,13 @@
             
             <h2>La lunette astronomique</h2>
 
+            <picture class="obs-image">
+                <source media=("max-width: 1920px") srcset="img/telescope_1.webp"/>
+                <source media=("max-width: 720px") srcset="img/telescope_1.webp"/>            
+                <source media=("max-width: 400px") srcset="img/telescope_1.webp"/>  
+                <img src="img/telescope_1.webp">          
+            </picture>    
+
                 <p class="texte">
                     Ut vehicula enim sem, vitae ornare mi dignissim ut. Sed ornare in ante ac rhoncus. Morbi suscipit ipsum quis magna cursus, eu finibus arcu suscipit. 
                     Aliquam malesuada nibh at nisi ornare, et venenatis arcu sollicitudin. 
@@ -56,11 +48,7 @@
                     Etiam at enim feugiat, ultricies leo eget, tempus metus. 
                 </p>
 
-                <picture>
-                    <source media=("max-width: 1920px") srcset="telescope_1.webp"/>
-                    <source media=("max-width: 720px") srcset="image-telescope.jpg"/>            
-                    <source media=("max-width: 400px") srcset="image-telescope.jpg"/>           
-                </picture>                                                   
+                                               
 
             <h2>La carte du ciel</h2>
 
@@ -75,21 +63,10 @@
                     Duis scelerisque dapibus velit vel volutpat. 
                 </p>
 
-
-                <picture>
-                    <source media=("max-width: 1920px") srcset="image-telescope.jpg"/>
-                    <source media=("max-width: 720px") srcset="image-telescope.jpg"/>            
-                    <source media=("max-width: 400px") srcset="image-telescope.jpg"/>           
-                </picture> 
-
         </section>
         
     </article>
 
-    <footer>
-        <p>un truc</p>
-
-    </footer>
 
 </body>
 
