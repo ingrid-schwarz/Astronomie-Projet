@@ -2,26 +2,51 @@ body {
     background-color: rgb(30, 30, 49);;
     }
 
-header h1 {
-    color: yellow;
-    
-}
-header{
+    header h1 {
+        color: white;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        font-size: 80px;
+      }
+
+.lune-titre {
+    position: absolute;
+    width: 400px;
+    }
+.soleil-titre {
+    width: 100px;
+    position: absolute;
+    }
+header {
+    padding-top: 1px;
+    padding-bottom: 30px;
     background-color: rgb(7, 7, 61);
-}
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-origin: content-box;
+  }
 nav{display: block;}
-ul.nav-menu{
-    list-style: none;
+
+ul.nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #FFFFFF;
-    font-weight: 300;
-    padding: 20px;
-    }
+    color: white;
+    text-align: center;
+    font-weight: 150;
+    /*margin-right: 50px;
+    margin-left: 260px;*/
+    list-style: none;
+  }
 
-    a{text-decoration: none;
-    color: white;}
+.nav-menu :hover {
+    color: yellow;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
 
 article.obs{
     display: flex;
@@ -58,6 +83,15 @@ p.texte {
 .burger{
     display : none;
 }
+
+.footer {
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    height: 200px;
+    padding-top: 50px;
+    font-size: 20px;
+  }
 
     /***********************************************************
 *******************  Burger  *******************************
