@@ -1,12 +1,65 @@
+/*À mettre avant les médias queries permet de faire 
+disparaître le menu burger en mode desktop*/
+.burger {
+    display: none;
+  }
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: #d4d4d4;
+    }
+    header {
+      padding-top: 1px;
+      padding-bottom: 30px;
+      background-color: rgb(7, 7, 61);
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-origin: content-box;
+    }
+    .lune-titre {
+      position: absolute;
+      width: 400px;
+    }
+    .soleil-titre {
+      width: 100px;
+      position: absolute;
+    }
+    li {
+      font-size: 25px;
+    }
+  
+    header h1 {
+      color: white;
+      margin-left: 10%;
+      margin-bottom: 10px;
+      font-size: 80px;
+    }
+  
+    ul.nav-menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: white;
+      text-align: center;
+  
+      font-weight: 150;
+      margin-right: 50px;
+      margin-left: 260px;
+  
+      list-style: none;
+    }
+    .nav-menu :hover {
+      color: yellow;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
 article.obs{
     position: absolute;
     left: 15%;
 
 }
-h1{
-    color:white;
-    font-size: 40px;
-}
+
 
 .contenu {
     padding: 10px;
