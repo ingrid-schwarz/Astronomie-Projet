@@ -1,8 +1,6 @@
-let b_btn =document.querySelector("button.b-btn");
-b_btn.addEventListener('click', function{
-    document.querySelectorAll("nav.burger").style.display="block";    
+let b_btn =document.querySelector("button");
+b_btn.addEventListener(click,function(){
+    document.querySelector("hidden").classList.toggle="show";    
 })
-if(screen.width < "721px"){
-    burger.style.display = "block";  
-}
 
+ 
