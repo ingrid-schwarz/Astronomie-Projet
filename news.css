@@ -60,10 +60,9 @@ disparaître le menu burger en mode desktop*/
   }
 
   h2 {
+    text-align: center;
     font-size: 50px;
     color: rgb(7, 7, 61);
-    text-align: center;
-
     margin-bottom: 80px;
     margin-top: 100px;
   }
