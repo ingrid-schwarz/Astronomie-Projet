@@ -1,36 +1,153 @@
-body {
-    margin:2px 5px 2em 0;
-    background-color: blue ;
+.burger {
+  display: none;
 }
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: #d4d4d4;
+  }
+  header {
+    padding-top: 1px;
+    padding-bottom: 30px;
+    background-color: rgb(7, 7, 61);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-origin: content-box;
+  }
+  .lune-titre {
+    position: absolute;
+    width: 400px;
+  }
+  .soleil-titre {
+    width: 100px;
+    position: absolute;
+  }
+  li {
+    font-size: 25px;
+  }
+  header h1 {
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-size: 80px;
+  }
+  ul.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-weight: 150;
+    margin-right: 50px;
+    margin-left: 260px;
+    list-style: none;
+  }
+  .nav-menu :hover {
+    color: yellow;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
 
-main {
-    background-color:white;
+  main {
+    background-color: white;
     margin: 200px;
     text-align: left;
-}
+    border-radius: 10px;
+  }
 
-img {
+  main img {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
     height: 80%;
     display: flex;
     justify-content: center;
-}
+  }
 
-h1 {
-    text-align:center;
-    font-size:40px;
-}
-
-main div a.bouton {
+  h1 {
     text-align: center;
+    font-size: 40px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  main div a.bouton {
     border: 3px solid black;
     padding: 10px 20px;
-    flex-wrap: wrap;
-    
+    background: black;
+    background: -moz-linear-gradient(180deg, rgb(13, 14, 13) 0%, black 100%);
+    background: -webkit-linear-gradient(180deg, rgb(19, 9, 109) 0%, black 100%);
+    background: linear-gradient(
+      180deg,
+      rgb(10, 10, 10) 0%,
+      rgb(12, 89, 92) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=black,endColorstr=black,GradientType=1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: dotted;
+  }
+
+  .container-button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  p {
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .video {
+    position: relative;
+  }
+
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .iframe div img {
+    height: 100%;
+    display: flex;
+  }
 }
 
-div {
-    background-color: white;
+@media screen and (max-width: 768px) {
+  ul.nav-menu {
+    display: none;
+  }
+
+  .lune-titre {
+    position: absolute;
+    width: 200px;
+  }
+  .soleil-titre {
+    width: 100px;
+    position: absolute;
+  }
+  .ml2 {
+    color: white;
+    margin-left: 110px;
+    position: absolute;
+    margin-top: 60px;
+  }
+  header {
+    background-color: rgb(7, 7, 61);
+    width: 100%;
+    height: 120px;
+  }
 }
