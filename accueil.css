@@ -43,11 +43,11 @@ disparaître le menu burger en mode desktop*/
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    text-align: center;
+    text-align: right;
 
     font-weight: 150;
     margin-right: 50px;
-    margin-left: 260px;
+    margin-left: 300px;
 
     list-style: none;
   }
@@ -113,9 +113,10 @@ disparaître le menu burger en mode desktop*/
   align-items: center;
   height: 100%;
   color: #fff;
+  border-radius: 10px;
 }
 #slides .slide_1 {
-  background: rgb(7, 7, 61);
+  background: #1580a3;
 }
 #slides .slide_2 {
   background: #04394bb2;
@@ -266,7 +267,7 @@ h2 {
 .slider {
   width: 100%;
   overflow: hidden;
-  margin: 90px;
+  margin: -3px;
 }
 .slide-bottom {
   display: flex;
@@ -296,8 +297,8 @@ h2 {
 .footer {
   text-align: center;
   list-style: none;
-  background-color: black;
-  height: 200px;
-  padding-top: 50px;
+  background-color: rgb(7, 7, 61);
+  height: 120px;
+  padding-top: 10px;
   font-size: 20px;
 }

@@ -1,11 +1,14 @@
 body {
-  background-color: rgb(30, 30, 49);
+  background-color: #d4d4d4;
 }
-*/ header h1 {
+header h1 {
   color: white;
   margin-left: 10%;
   margin-bottom: 10px;
   font-size: 80px;
+}
+p.texte {
+  color: black;
 }
 
 .lune-titre {
@@ -32,21 +35,25 @@ nav {
   padding: 10px;
   text-align: center;
   max-width: 80%;
+  color: black;
   flex-direction: column;
   justify-content: space-around;
   align-items: right;
-  background-color: rgb(49, 47, 47);
+  background-color: White;
+  border-radius: 30px;
 }
-
+p {
+  color: black;
+}
 ul.nav-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: white;
-  text-align: center;
+  text-align: right;
   font-weight: 150;
-  /*margin-right: 50px;
-    margin-left: 260px;*/
+  margin-right: 50px;
+  margin-left: 300px;
   list-style: none;
 }
 
@@ -62,13 +69,22 @@ a {
 article.obs {
   display: flex;
   justify-content: center;
-  background-color: rgb(30, 30, 49);
+  background-color: #d4d4d4;
 }
 
 h1.titre {
-  color: white;
+  color: rgb(7, 7, 61);
   font-size: 40px;
   text-align: center;
+}
+.footer {
+  text-align: center;
+  list-style: none;
+  background-color: rgb(7, 7, 61);
+  height: 120px;
+  padding-top: 50px;
+  font-size: 20px;
+  margin-top: 62px;
 }
 
 /*À mettre avant les médias queries permet de faire 
@@ -113,11 +129,9 @@ disparaître le menu burger en mode desktop*/
     justify-content: space-between;
     color: white;
     text-align: center;
-
     font-weight: 150;
     margin-right: 50px;
     margin-left: 260px;
-
     list-style: none;
   }
   .nav-menu :hover {
@@ -127,21 +141,12 @@ disparaître le menu burger en mode desktop*/
     text-decoration: none;
     color: white;
   }
-
-  /* ul.nav-menu {
-    padding: 10px;
-    text-align: center;
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
-
   h2 {
-    color: white;
+    color: rgb(7, 7, 61);
   }
   p.texte {
     padding-bottom: 50px;
-    color: white;
+    color: black;
   }
 
   .burger {
@@ -151,17 +156,9 @@ disparaître le menu burger en mode desktop*/
   .footer {
     text-align: center;
     list-style: none;
-    background-color: black;
-    height: 200px;
-    padding-top: 50px;
-    font-size: 20px;
-  }
-  .footer {
-    text-align: center;
-    list-style: none;
-    background-color: black;
-    height: 200px;
-    padding-top: 50px;
+    background-color: rgb(7, 7, 61);
+    height: 120px;
+    padding-top: 10px;
     font-size: 20px;
   }
 }
@@ -182,12 +179,12 @@ disparaître le menu burger en mode desktop*/
     width: 100px;
     position: absolute;
   }
-  /* .ml2 {
+  .ml2 {
     color: white;
     margin-left: 110px;
     position: absolute;
     margin-top: 60px;
-  } */
+  }
   header {
     background-color: rgb(7, 7, 61);
     width: 100%;
@@ -321,10 +318,11 @@ disparaître le menu burger en mode desktop*/
     transform: none;
   }
   .footer {
+    text-align: center;
     list-style: none;
-    background-color: black;
-    height: 150px;
-    padding-top: 50px;
+    background-color: rgb(7, 7, 61);
+    height: 120px;
+    padding-top: 10px;
     font-size: 20px;
   }
 }

@@ -43,11 +43,10 @@ disparaître le menu burger en mode desktop*/
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    text-align: center;
-
+    text-align: right;
     font-weight: 150;
     margin-right: 50px;
-    margin-left: 260px;
+    margin-left: 300px;
 
     list-style: none;
   }

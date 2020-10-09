@@ -39,10 +39,10 @@ disparaître le menu burger en mode desktop*/
     flex-direction: row;
     justify-content: space-between;
     color: white;
-    text-align: center;
+    text-align: right;
     font-weight: 150;
     margin-right: 50px;
-    margin-left: 260px;
+    margin-left: 300px;
     list-style: none;
   }
   .nav-menu :hover {
@@ -57,6 +57,7 @@ disparaître le menu burger en mode desktop*/
     margin-left: 200px;
     margin-right: 200px;
     padding-block-end: 100px;
+    border-radius: 20px;
   }
 
   h2 {
@@ -87,9 +88,9 @@ disparaître le menu burger en mode desktop*/
   .footer {
     text-align: center;
     list-style: none;
-    background-color: black;
-    height: 200px;
-    padding-top: 50px;
+    background-color: rgb(7, 7, 61);
+    height: 120px;
+    padding-top: 10px;
     font-size: 20px;
   }
 }
